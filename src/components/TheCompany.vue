@@ -2,16 +2,19 @@
   <section id="the-company">
     <div id="the-company-cards">
       <div>
+        <i class="fas fa-user-friends"></i>
         <h4>Human Capital</h4>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore molestias magni aperiam similique possimus. Totam hic,</p>
       </div>
 
       <div>
+        <i class="fas fa-chart-pie"></i>
         <h4>Core Business</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iusto magnam molestiae, nam fugit eum. Expedita .</p>
       </div>
 
       <div>
+        <i class="fas fa-thermometer-half"></i>
         <h4>Performance</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, esse assumenda! Beatae obcaecati .</p>
         </div>

@@ -2,12 +2,18 @@
   <header>
     <section id="info-header">
       <div id="timetables">
+        <i class="fas fa-clock"></i>
         <span>Open Hours: Mon - Sat - 9:00 - 18:00</span>
       </div>
 
       <div id="contacts">
+        <i class="fas fa-phone-alt"></i>
         <span>+1(305) 1234-5678 </span>
+        <i class="fas fa-envelope"></i>
         <span>hello@example.com</span>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
       </div>
     </section>
 
@@ -33,6 +39,9 @@
             </li>
             <li>
               <h4>TESTIMONIALS</h4>
+            </li>
+            <li>
+              <i class="far fa-user"></i>
             </li>
           </ul>
           <button>GET IN TOUCH</button>
