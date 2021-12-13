@@ -74,6 +74,7 @@ export default {
     background-color: #111118;
     color: #fff;
     padding-top: 50px;
+    padding-bottom: 100px;
     ul {
         list-style-type: none;
     }
@@ -91,6 +92,7 @@ export default {
             width: 100%;
             z-index: 1;
             border-radius: 10px;
+            filter: opacity(0.5);
         }
         h1 {
             position: absolute;
