@@ -28,7 +28,7 @@
       </nav>
 
       <div id="human-resources">
-        <div>HUMAN RESOURCES</div>
+        <h5>HUMAN RESOURCES</h5>
         <h1>Get More Productivity</h1>
         <p>Planning, recruitment and selection process and performance evaluation of employees.</p>
         <button>GET IN TOUCH</button>
@@ -53,7 +53,7 @@ header {
     justify-content: space-around;
     align-items: center;
     height: 40px;
-    background-color: #5c828c;
+    background-color: #21333e;
   }
   #jumbotron {
     height: 700px;
