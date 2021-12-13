@@ -80,6 +80,7 @@ header {
       li {
         display: inline-block;
         margin: 10px;
+        cursor: pointer;
       }
       button {
         
