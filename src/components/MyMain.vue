@@ -85,6 +85,9 @@ main {
             #the-company-network-left {
                 display: inline-block;
                 width: 50%;
+                float: left;
+                padding-top: 100px;
+                padding-left: 200px;
                 #network-cards {
                     div {
                         display: inline-block;

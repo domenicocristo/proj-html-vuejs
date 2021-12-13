@@ -18,11 +18,23 @@
         </div>
 
         <div>
-          <h4>HOME</h4>
-          <h4>ABOUT</h4>
-          <h4>PROJECTS</h4>
-          <h4>PROCESS</h4>
-          <h4>TESTIMONIALS</h4>
+          <ul>
+            <li>
+              <h4>HOME</h4>
+            </li>
+            <li>
+              <h4>ABOUT</h4>
+            </li>
+            <li>
+              <h4>PROJECTS</h4>
+            </li>
+            <li>
+              <h4>PROCESS</h4>
+            </li>
+            <li>
+              <h4>TESTIMONIALS</h4>
+            </li>
+          </ul>
           <button>GET IN TOUCH</button>
         </div>
       </nav>
@@ -61,9 +73,16 @@ header {
     nav {
       display: flex;
       justify-content: space-around;
-      h4 {
+      ul {
+        display: inline-block;
+        list-style-type: none;
+      }
+      li {
         display: inline-block;
         margin: 10px;
+      }
+      button {
+        
       }
     }
   }
