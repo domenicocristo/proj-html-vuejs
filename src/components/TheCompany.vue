@@ -23,7 +23,7 @@
     <div id="the-company-network">
       <div id="the-company-network-left">
         <h5>ABOUT THE NETWORK</h5>
-        <h1>The Company</h1>
+        <h1><span id="title-design">The</span> Company</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tot maxime quta ducimus magni excepturi libero quos a?</p>
 
         <div id="network-cards">
@@ -91,6 +91,7 @@ export default {
       padding: 20px;
       h4 {
         margin-bottom: 15px;
+        color: #21333e;
       }
     }
   }
@@ -105,7 +106,15 @@ export default {
         color: #05a5a6;
       }
       h1 {
-        font-size: 50px;
+        font-size: 40px;
+        color: #21333e;
+        margin: 20px 0 20px 0;
+      }
+      #title-design {
+        color: #048283;
+        background-color: #daebed;
+        padding: 1px 8px 1px 8px;
+        border-radius: 5px;
       }
       #network-cards {
         margin: 30px 0 30px 0;
@@ -119,6 +128,7 @@ export default {
           h3 {
             font-size: 22px;
             margin-bottom: 15px;
+            color: #21333e;
           }
         }
       }

@@ -2,13 +2,13 @@
 <section id="actions-projects">
     <div>
         <h5>WE DO MORE FOR EVERYONE</h5>
-        <h1>Actions & Projects</h1>  
+        <h1>Actions & <span id="title-design">Projects</span></h1>  
     </div>
 
     <ul>
         <li>
             <h4>ALL</h4> 
-            </li>
+        </li>
         <li>
             <h4>ISTITUTTIONAL</h4>
         </li>
@@ -32,32 +32,32 @@
     <div id="actions-projects-cards">
         <div class="actions-projects-card">
             <img src="../assets/img/project-1.jpg" alt="">
-            <h1>Academic professional program in social media</h1>
+            <h2>Academic professional program in social media</h2>
         </div>
 
         <div class="actions-projects-card">
             <img src="../assets/img/project-2.jpg" alt="">
-            <h1>President's speech at the annual meeting</h1>
+            <h2>President's speech at the annual meeting</h2>
         </div>
 
         <div class="actions-projects-card">
             <img src="../assets/img/project-3.jpg" alt="">
-            <h1>International business trip in Shanghai</h1>
+            <h2>International business trip in Shanghai</h2>
         </div>
 
         <div class="actions-projects-card">
             <img src="../assets/img/project-4.jpg" alt="">
-            <h1>Technology workshop with education theme</h1>
+            <h2>Technology workshop with education theme</h2>
         </div>
 
         <div class="actions-projects-card">
             <img src="../assets/img/project-5.jpg" alt="">
-            <h1>Donation of clothes and food to the partner NGO</h1>
+            <h2>Donation of clothes and food to the partner NGO</h2>
         </div>
 
         <div class="actions-projects-card">
             <img src="../assets/img/project-6.jpg" alt="">
-            <h1>Confraternization of the procurementteam</h1>
+            <h2>Confraternization of the procurementteam</h2>
         </div>
     </div>
 </section>
@@ -71,16 +71,30 @@ export default {
 
 <style scoped lang="scss">
 #actions-projects {
+    text-align: center;
     background-color: #111118;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 100px;
+    h5 {
+        color: #05a5a6;
+        margin-bottom: 15px;
+    }
+    h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    #title-design {
+        background-color: #0e262d;
+        padding: 1px 10px 1px 10px;
+        border-radius: 5px;
+    }
     ul {
         list-style-type: none;
     }
     li {
         display: inline-block;
-        margin: 10px;
+        margin: 20px;
         cursor: pointer;
     }
     .actions-projects-card {
@@ -88,13 +102,14 @@ export default {
         width: calc(100% / 4);
         position: relative;
         margin: 20px;
+        cursor: pointer;
         img {
             width: 100%;
             z-index: 1;
             border-radius: 10px;
             filter: opacity(0.5);
         }
-        h1 {
+        h2 {
             position: absolute;
             bottom: 20px; 
             z-index: 2;
