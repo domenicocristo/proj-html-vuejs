@@ -19,8 +19,8 @@
 
     <section id="jumbotron">
       <nav>
-        <div>
-          <h4>NEX GEN</h4>
+        <div id="logo">
+          <h4><span id="logo-design">NEX</span> GEN</h4>
         </div>
 
         <div>
@@ -53,7 +53,7 @@
         <h1>Get More Productivity</h1>
         <p>Planning, recruitment and selection process and performance evaluation of employees.</p>
         <button>GET IN TOUCH</button>
-        <button>READ MORE</button>
+        <button id="button-invisible">READ MORE</button>
       </div>
     </section>
 
@@ -69,30 +69,90 @@ export default {
 <style scoped lang="scss">
 header {
   color: #fff;
+  i {
+    margin: 0 10px 0 25px;
+    cursor: pointer;
+  }
   #info-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 40px;
     background-color: #21333e;
+    span {
+      cursor: pointer;
+    }
   }
   #jumbotron {
     height: 700px;
+    position: relative;
     background-image: url(../assets/img/bg-4.jpg);
+    background-size: cover;
+    padding-top: 15px;
     nav {
-      display: flex;
-      justify-content: space-around;
-      ul {
+      #logo {
         display: inline-block;
+        position: absolute;
+        left: 10%;
+      }
+      #logo-design {
+        color: #048283;
+        background-color: #04838348;
+        padding: 5px 3px 5px 20px;
+        border-radius: 20px 0 0 20px;
+      }
+      div {
+        position: absolute;
+        right: 10%;
+      }
+      ul {
+        display: inline-block; 
         list-style-type: none;
       }
       li {
         display: inline-block;
-        margin: 10px;
+        margin-left: 20px;
         cursor: pointer;
       }
       button {
-        
+        margin-left: 20px;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 15px;
+        background-color: #048283;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+    #human-resources {
+      width: 350px;
+      position: absolute;
+      top: 200px;
+      left: 10%;
+      h5 {
+        color: #048283;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      button {
+        margin: 10px;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 15px;
+        background-color: #048283;
+        color: #fff;
+        cursor: pointer;
+      }
+      #button-invisible {
+        margin: 10px;
+        border: none;
+        border: 1px solid #048283;
+        border-radius: 3px;
+        padding: 5px 15px;
+        background: none;
+        color: #fff;
+        cursor: pointer;
       }
     }
   }

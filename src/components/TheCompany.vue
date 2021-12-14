@@ -4,19 +4,19 @@
       <div>
         <i class="fas fa-user-friends"></i>
         <h4>Human Capital</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore molestias magni aperiam similique possimus. Totam hic,</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A iusto magnam molestiae, nam fugit eum. Expedita.</p>
       </div>
 
       <div>
         <i class="fas fa-chart-pie"></i>
         <h4>Core Business</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iusto magnam molestiae, nam fugit eum. Expedita .</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A iusto magnam molestiae, nam fugit eum. Expedita.</p>
       </div>
 
       <div>
         <i class="fas fa-thermometer-half"></i>
         <h4>Performance</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, esse assumenda! Beatae obcaecati .</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A iusto magnam molestiae, nam fugit eum. Expedita.</p>
         </div>
     </div>
 
@@ -29,25 +29,25 @@
         <div id="network-cards">
             <div>
               <h2>0</h2>
-              <h1>Employees</h1>
+              <h3>Employees</h3>
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
 
             <div>
               <h2>0</h2>
-              <h1>Partners</h1>
+              <h3>Partners</h3>
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
 
             <div>
               <h2>0</h2>
-              <h1>Customers</h1>
+              <h3>Customers</h3>
               <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
 
         <button>GET IN TOUCH</button>
-        <button>READ MORE</button>
+        <button id="button-invisible">READ MORE</button>
       </div>
 
       <div id="the-company-network-right">
@@ -71,6 +71,16 @@ export default {
     align-items: center;
     height: 400px;
     background-color: #e4eae5;
+    i {
+      height: 40px;
+      width: 40px;
+      background-color: #daebed;
+      color: #05a5a6;
+      text-align: center;
+      border-radius: 50%;
+      padding-top: 5.5%;
+      margin: 20px 0 15px 0;
+    }
     div {
       display: inline-block;
       height: 250px;
@@ -78,7 +88,10 @@ export default {
       border-radius: 10px;
       background-color: #fff;
       margin: 10px;
-      padding: 15px;
+      padding: 20px;
+      h4 {
+        margin-bottom: 15px;
+      }
     }
   }
   #the-company-network {
@@ -87,16 +100,46 @@ export default {
       width: 50%;
       float: left;
       padding-top: 100px;
-      padding-left: 200px;
+      padding-left: 180px;
+      h5 {
+        color: #05a5a6;
+      }
+      h1 {
+        font-size: 50px;
+      }
       #network-cards {
+        margin: 30px 0 30px 0;
         div {
         display: inline-block;
-        width: 100px;
-        margin: 20px;
+        width: 25%;
+        margin-right: 20px;
           h2 {
             color: #05a5a6;
           }
+          h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+          }
         }
+      }
+      button {
+        margin-left: 20px;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 15px;
+        background-color: #048283;
+        color: #fff;
+        cursor: pointer;
+      }
+      #button-invisible {
+        margin: 10px;
+        border: none;
+        border: 1px solid #048283;
+        border-radius: 3px;
+        padding: 5px 15px;
+        background: none;
+        color: #048283;
+        cursor: pointer;
       }
     }
     #the-company-network-right {
