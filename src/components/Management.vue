@@ -2,7 +2,7 @@
     <section id="management">
         <div id="management-title">
             <h5>HOW IT WORKS IN PRACTICE</h5>
-            <h1>Process Management</h1>  
+            <h1><span id="title-design">Process</span> Management</h1>  
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias delectus sapiente sint faciuptate accusamus, nihil possiitia voluptatibus.</p>
         </div>
 
@@ -49,11 +49,26 @@ export default {
 <style scoped lang="scss">
 #management {
     margin-top: 100px;
-    text-align: center;
     #management-title {
-        width: 800px;
+        text-align: center;
+        h5 {
+            color: #05a5a6;
+        }
+        h1 {
+            font-size: 40px;
+            color: #21333e;
+            margin: 20px 0 15px 0;
+        }
+        #title-design {
+            color: #048283;
+            background-color: #daebed;
+            padding: 1px 8px 1px 8px;
+            border-radius: 5px;
+        }
     }
     #management-cards {
+        display: flex;
+        justify-content: center;
         margin-top: 50px;
         margin-bottom: 100px;
         div {
