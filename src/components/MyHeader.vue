@@ -8,7 +8,7 @@
 
       <div id="contacts">
         <i class="fas fa-phone-alt"></i>
-        <span>+1(305) 1234-5678 </span>
+        <span>+1(305) 1234-5678</span>
         <i class="fas fa-envelope"></i>
         <span>hello@example.com</span>
         <i class="fab fa-facebook-f"></i>
