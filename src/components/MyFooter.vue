@@ -46,7 +46,7 @@ footer {
   background-color: #111118;
   color: #fff;
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   #footer-left {
     width: 620px;
     h5 {
@@ -69,10 +69,16 @@ footer {
       background-color: #1d1d23;
       border: none;
       border-radius: 5px;
+      padding-left: 10px;
     }
     #message {
       height: 120px;
       width: 610px;
+      position: relative;
+    }
+    #message::placeholder {
+      position: absolute;
+      top: 10px;
     }
     button {
       display: block;

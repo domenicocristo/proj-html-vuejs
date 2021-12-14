@@ -50,7 +50,7 @@
 
       <div id="human-resources">
         <h5>HUMAN RESOURCES</h5>
-        <h1>Get More Productivity</h1>
+        <h1>Get More <span id="title-design">Productivity</span></h1>
         <p>Planning, recruitment and selection process and performance evaluation of employees.</p>
         <button>GET IN TOUCH</button>
         <button id="button-invisible">READ MORE</button>
@@ -134,9 +134,15 @@ header {
       }
       h1 {
         font-size: 50px;
+        margin-bottom: 20px;
+      }
+      #title-design {
+        background-color: #048283;
+        border-radius: 5px;
+        padding: 0 10px 0 10px;
       }
       button {
-        margin: 10px;
+        margin: 20px 0 10px 0;
         border: none;
         border-radius: 3px;
         padding: 5px 15px;
