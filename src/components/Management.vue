@@ -1,9 +1,41 @@
 <template>
     <section id="management">
-        <div>
+        <div id="management-title">
             <h5>HOW IT WORKS IN PRACTICE</h5>
             <h1>Process Management</h1>  
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias delectus sapiente sint faciuptate accusamus, nihil possiitia voluptatibus!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias delectus sapiente sint faciuptate accusamus, nihil possiitia voluptatibus.</p>
+        </div>
+
+        <div id="management-cards">
+            <div>
+                <h2>01</h2>
+                <h1>Collection of information</h1>
+                <p>Lorem ipsum dolor sit amet consecteur.</p>
+            </div>
+
+            <div>
+                <h2>02</h2>
+                <h1>Strategic planning</h1>
+                <p>Lorem ipsum dolor sit amet consecteur.</p>
+            </div>
+
+            <div>
+                <h2>03</h2>
+                <h1>Assignment of responsibilities</h1>
+                <p>Lorem ipsum dolor sit amet consecteur.</p>
+            </div>
+
+            <div>
+                <h2>04</h2>
+                <h1>Formatting process</h1>
+                <p>Lorem ipsum dolor sit amet consecteur.</p>
+            </div>
+
+            <div>
+                <h2>05</h2>
+                <h1>Continuity formalization</h1>
+                <p>Lorem ipsum dolor sit amet consecteur.</p>
+            </div>
         </div>
     </section>    
 </template>
@@ -15,5 +47,28 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+#management {
+    margin-top: 100px;
+    text-align: center;
+    #management-title {
+        width: 800px;
+    }
+    #management-cards {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        div {
+            width: 250px;
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+            h2 {
+                display: inline-block;
+                color: #048283;
+                background-color: #daebed;
+                border-radius: 50%;
+                padding: 10px 13px;
+            }
+        }
+    }
+}
 </style>
