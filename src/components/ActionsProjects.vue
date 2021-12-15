@@ -6,30 +6,14 @@
     </div>
 
     <ul>
-        <li>
-            <h4>ALL</h4> 
-        </li>
-        <li>
-            <h4>ISTITUTTIONAL</h4>
-        </li>
-        <li>
-            <h4>SOCIAL</h4>
-        </li>
-        <li>
-            <h4>EVENTS</h4>
-        </li>
-        <li>
-            <h4>INNOVATION</h4>
-        </li>
-        <li>
-            <h4>ENVIRORMENT</h4>
-        </li>
-        <li>
-            <h4>TECHNOLOGY</h4>
-        </li>
+        <li v-for="item, i in itemsActionsProjects" :key="i">{{item.name}}</li>
     </ul>
 
     <div id="actions-projects-cards">
+        <!-- <div v-for="card, i in cardsActionsProjects" :key="i" class="actions-projects-card">
+            <img :src="card.img" alt="">
+            <h2>{{card.title}}</h2>
+        </div> -->
         <div class="actions-projects-card">
             <img src="../assets/img/project-1.jpg" alt="">
             <h2>Academic professional program in social media</h2>
@@ -66,6 +50,10 @@
 <script>
 export default {
   name: 'ActionsProjects',
+  props: {
+      itemsActionsProjects: Array,
+      cardsActionsProjects: Array,
+  }
 }
 </script>
 
@@ -97,6 +85,9 @@ export default {
         margin: 20px;
         cursor: pointer;
     }
+    li:hover {
+        color: #048283;
+    }
     .actions-projects-card {
         display: inline-block;
         width: calc(100% / 4);
@@ -108,6 +99,9 @@ export default {
             z-index: 1;
             border-radius: 10px;
             filter: opacity(0.5);
+        }
+        img:hover {
+            border: 3px solid #fff;
         }
         h2 {
             position: absolute;

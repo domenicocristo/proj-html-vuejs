@@ -89,6 +89,10 @@ footer {
       color: #fff;
       margin-top: 20px;
       cursor: pointer;
+    }
+    button:hover {
+        background-color: #fff;
+        color: #048283;
       }
   }
   #footer-right {
@@ -103,6 +107,10 @@ footer {
     div {
       margin-bottom: 20px;
       color: #048283;
+      cursor: pointer;
+    }
+    div:hover {
+      color: #fff;
     }
     i {
       height: 40px;
@@ -124,6 +132,10 @@ footer {
       color: #fff;
       cursor: pointer;
     }
+    button:hover {
+        background-color: #fff;
+        color: #048283;
+      }
   }
 }
 </style>

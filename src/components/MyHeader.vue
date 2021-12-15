@@ -25,7 +25,7 @@
 
         <div>
           <ul>
-            <li v-for="item, i in items" :key="i">{{item.name}}</li>
+            <li v-for="item, i in itemsHeader" :key="i">{{item.name}}</li>
             <li>
               <i class="far fa-user"></i>
             </li>
@@ -50,7 +50,7 @@
 export default {
   name: 'MyHeader',
   props: {
-    items: Array,
+    itemsHeader: Array,
   }
 }
 </script>
@@ -59,8 +59,13 @@ export default {
 header {
   color: #fff;
   i {
+    width: 20px;
     margin: 0 10px 0 25px;
+    border-radius: 50%;
     cursor: pointer;
+  }
+  i:hover {
+    color: #048283;
   }
   #info-header {
     display: flex;
@@ -70,6 +75,9 @@ header {
     background-color: #21333e;
     span {
       cursor: pointer;
+    }
+    span:hover {
+      color: #048283;
     }
   }
   #jumbotron {
@@ -83,6 +91,7 @@ header {
         display: inline-block;
         position: absolute;
         left: 10%;
+        cursor: pointer;
       }
       #logo-design {
         color: #048283;
@@ -103,6 +112,9 @@ header {
         margin-left: 20px;
         cursor: pointer;
       }
+      li:hover {
+        color: #048283;
+      }
       button {
         margin-left: 20px;
         border: none;
@@ -111,6 +123,10 @@ header {
         background-color: #048283;
         color: #fff;
         cursor: pointer;
+      }
+      button:hover {
+        background-color: #fff;
+        color: #048283;
       }
     }
     #human-resources {
@@ -139,6 +155,10 @@ header {
         color: #fff;
         cursor: pointer;
       }
+      button:hover {
+        background-color: #fff;
+        color: #048283;
+      }
       #button-invisible {
         margin: 10px;
         border: none;
@@ -148,6 +168,10 @@ header {
         background: none;
         color: #fff;
         cursor: pointer;
+      }
+      #button-invisible:hover {
+        background-color: #fff;
+        color: #000;
       }
     }
   }

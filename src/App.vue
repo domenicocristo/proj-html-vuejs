@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MyHeader :items="items"/>
+    <MyHeader :itemsHeader="itemsHeader"/>
 
     <MyMain/>
 
@@ -22,7 +22,7 @@ export default {
   },
   data() {
     return {
-      items: [
+      itemsHeader: [
         {
           name: "HOME"
         },

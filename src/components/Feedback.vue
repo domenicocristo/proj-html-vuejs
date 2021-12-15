@@ -9,17 +9,20 @@
         <div id="feedback-cards">
             <div>
                 <img src="../assets/img/logo-1.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus incidunt error repellat dignissimos optio hic, repellendus quibusdam. Ducimus saepe placeat tempora eveniet explicabo sequi sunt quas architecto expedita recusandae!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim necessitatibus incidunt error repellat dignissimos optio hic, repellendus quibusdam. Ducimus saepe placeat tempora eveniet explice tempori.</p>
+                <i class="fas fa-quote-right"></i>
             </div>
 
             <div>
                 <img src="../assets/img/logo-2.png" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iure quibusdam, esse labore eius iste, corrupti voluptatibus dolorem praesentium voluptates aliquid a animi perferendis, unde temporibus assumenda vitae minus? Unde!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui iure quibusdam, esse labore eius iste, corrupti voluptatibus dolorem praesentium voluptates aliquid a animi perferendis, unde tempori.</p>
+                <i class="fas fa-quote-right"></i>
             </div>
 
             <div>
                 <img src="../assets/img/logo-3.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem, voluptatum totam maiores, ex nam quia nobis quaerat pariatur dolorum neque expedita tempora, nesciunt distinctio doloribus ut facere delectus. Quia?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem, voluptatum totam maiores, ex nam quia nobis quaerat pariatur dolorum neque expedita tempora, nesciunt distinctio doloribuse tempori.</p>
+                <i class="fas fa-quote-right"></i>
             </div>
         </div>
     </section>    
@@ -56,10 +59,10 @@ export default {
     #feedback-cards {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         padding-bottom: 100px;
         div {
             display: inline-block;
-            height: 350px;
             width: 350px;
             background-color: #fff;
             border-radius: 10px;
@@ -68,6 +71,11 @@ export default {
             cursor: pointer;
             img {
                 margin-bottom: 15px;
+            }
+            i {
+                font-size: 30px;
+                color: #cccccc;
+                float: right;
             }
         }
     }

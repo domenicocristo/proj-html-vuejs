@@ -83,16 +83,19 @@ export default {
     }
     div {
       display: inline-block;
-      height: 250px;
       width: 250px;
       border-radius: 10px;
       background-color: #fff;
       margin: 10px;
       padding: 20px;
+      cursor: pointer;
       h4 {
         margin-bottom: 15px;
         color: #21333e;
       }
+    }
+    div:hover {
+      border: 1px solid #048283;
     }
   }
   #the-company-network {
@@ -141,6 +144,10 @@ export default {
         color: #fff;
         cursor: pointer;
       }
+      button:hover {
+        background-color: #0e262d;
+        color: #048283;
+      }
       #button-invisible {
         margin: 10px;
         border: none;
@@ -150,6 +157,10 @@ export default {
         background: none;
         color: #048283;
         cursor: pointer;
+      }
+      #button-invisible:hover {
+        background-color: #0e262d;
+        color: #fff;
       }
     }
     #the-company-network-right {
