@@ -25,21 +25,7 @@
 
         <div>
           <ul>
-            <li>
-              <h4>HOME</h4>
-            </li>
-            <li>
-              <h4>ABOUT</h4>
-            </li>
-            <li>
-              <h4>PROJECTS</h4>
-            </li>
-            <li>
-              <h4>PROCESS</h4>
-            </li>
-            <li>
-              <h4>TESTIMONIALS</h4>
-            </li>
+            <li v-for="item, i in items" :key="i">{{item.name}}</li>
             <li>
               <i class="far fa-user"></i>
             </li>
@@ -63,6 +49,9 @@
 <script>
 export default {
   name: 'MyHeader',
+  props: {
+    items: Array,
+  }
 }
 </script>
 

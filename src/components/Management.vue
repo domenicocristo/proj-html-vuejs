@@ -69,10 +69,11 @@ export default {
     #management-cards {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         margin-top: 50px;
         margin-bottom: 100px;
         div {
-            width: 250px;
+            width: 220px;
             display: inline-block;
             text-align: center;
             margin: 20px;
