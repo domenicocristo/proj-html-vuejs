@@ -10,38 +10,9 @@
     </ul>
 
     <div id="actions-projects-cards">
-        <!-- <div v-for="card, i in cardsActionsProjects" :key="i" class="actions-projects-card">
+        <div v-for="card, i in cardsActionsProjects" :key="i" class="actions-projects-card">
             <img :src="card.img" alt="">
             <h2>{{card.title}}</h2>
-        </div> -->
-        <div class="actions-projects-card">
-            <img src="../assets/img/project-1.jpg" alt="">
-            <h2>Academic professional program in social media</h2>
-        </div>
-
-        <div class="actions-projects-card">
-            <img src="../assets/img/project-2.jpg" alt="">
-            <h2>President's speech at the annual meeting</h2>
-        </div>
-
-        <div class="actions-projects-card">
-            <img src="../assets/img/project-3.jpg" alt="">
-            <h2>International business trip in Shanghai</h2>
-        </div>
-
-        <div class="actions-projects-card">
-            <img src="../assets/img/project-4.jpg" alt="">
-            <h2>Technology workshop with education theme</h2>
-        </div>
-
-        <div class="actions-projects-card">
-            <img src="../assets/img/project-5.jpg" alt="">
-            <h2>Donation of clothes and food to the partner NGO</h2>
-        </div>
-
-        <div class="actions-projects-card">
-            <img src="../assets/img/project-6.jpg" alt="">
-            <h2>Confraternization of the procurementteam</h2>
         </div>
     </div>
 </section>

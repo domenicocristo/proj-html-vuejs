@@ -70,6 +70,7 @@ footer {
       border: none;
       border-radius: 5px;
       padding-left: 10px;
+      color: #fff;
     }
     #message {
       height: 120px;
